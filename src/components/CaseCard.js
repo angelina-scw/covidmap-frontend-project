@@ -5,15 +5,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-/*
-CaseCard is from material-ui simple card: https://v4.mui.com/components/cards/#card
-1. 記得要換 function name to CaseCard 跟file name 一致
-2. 傳 props from Map.js:
-   {props.firstTitle} = country
-   {props.secondTitle} = state
-   Confirmed: {props.confirmed} = point.confirmed
-   Death: {props.death} = point.death
- */
+
 const useStyles = makeStyles({
     root: {
         minWidth: 275,
